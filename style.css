@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  color: #011d24;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .page {
@@ -11,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-color: rgb(216, 216, 216);
+  background-color: #525659;
   padding: 3px;
 }
 
@@ -20,10 +29,10 @@
   width: 793.700787px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
   rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  padding: 0 36px;
 }
 
 .info {
-  margin: 0 24px;
   padding: 12px 0;
   display: flex;
   border-bottom: 2px solid #00868e;
@@ -54,16 +63,16 @@
 }
 
 .box-title .name {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: #033c4a;
   margin-bottom: 4px;
-  letter-spacing: -1px;
 }
 
 .box-title .title-word {
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: -0.9px;
+  word-spacing: 1px;
 }
 
 .mt8 {
@@ -79,7 +88,7 @@
 .list-title li {
   margin: 8px 0;
   text-align: right;
-  line-height: 1.4;
+  line-height: 1.2;
   font-size: 0.8rem;
 }
 
@@ -91,4 +100,69 @@
 
 .word a {
   color: #000;
+}
+
+.details {
+  display: flex;
+  padding: 24px 0;
+}
+
+.short-side {
+  min-width: 40%;
+  border-right: 2px solid #00868e;
+  padding-right: 36px;
+  overflow-wrap: break-word;
+}
+
+.long-side {
+  flex-grow: 1;
+  padding-left: 36px;
+  overflow-wrap: break-word;
+}
+
+.box {
+  font-size: 0.9rem;
+  margin-bottom: 36px;
+}
+
+.box .title {
+  text-transform: uppercase;
+  color: #275c5d;
+  letter-spacing: 3px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.box .content {
+  margin-bottom: 12px;
+}
+
+.box .content .topic {
+  font-weight: 600;
+  margin-bottom: 4px;
+} 
+
+.box .content .school {
+  font-weight: 700;
+  font-size: 0.7rem;
+  margin-bottom: 4px;
+} 
+
+.box .content .phase {
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.box .content .subjects {
+  list-style-position: inside;
+  font-size: 0.9rem;
+}
+
+.box .content .subjects li {
+  line-height: 1.4;
+}
+
+.box .goals {
+  line-height: 1.4;
 }
