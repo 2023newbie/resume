@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: rgb(216, 216, 216);
+  padding: 3px;
+}
+
+.container {
+  background-color: white;
+  width: 793.700787px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+  rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.info {
+  margin: 0 24px;
+  padding: 12px 0;
+  display: flex;
+  border-bottom: 2px solid #00868e;
+}
+
+.info .title {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.info .title .box-title {
+  flex-grow: 1;
+  border-right: 2px solid #00868e;
+}
+
+.info .list-title {
+  flex-grow: 1;
+}
+
+.avatar img {
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.box-title {
+  text-transform: uppercase;
+}
+
+.box-title .name {
+  font-size: 2.5rem;
+  color: #033c4a;
+  margin-bottom: 4px;
+  letter-spacing: -1px;
+}
+
+.box-title .title-word {
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: -0.9px;
+}
+
+.mt8 {
+  height: 8px;
+  width: 793.700787px;
+  background-color: #00868e;
+}
+
+.list-title {
+  list-style-type: none;
+}
+
+.list-title li {
+  margin: 8px 0;
+  text-align: right;
+  line-height: 1.4;
+  font-size: 0.8rem;
+}
+
+.list-title .icon i {
+  color: #023845;
+  margin-left: 8px;
+  font-size: 1.1rem;
+}
+
+.word a {
+  color: #000;
+}
