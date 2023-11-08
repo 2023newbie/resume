@@ -1,1 +1,1 @@
-Deploy: https://2023newbie.github.io/cv-v2/
+Deploy: https://stellular-pavlova-ea4f1d.netlify.app/
